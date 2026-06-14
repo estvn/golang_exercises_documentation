@@ -45,8 +45,8 @@ Error distribution:
 ```
 
 > [!IMPORTANT] Install the newest version
-- Just rerun the install command
-- go install github.com/rakyll/hey@latest
+> - Just rerun the install command
+> - go install github.com/rakyll/hey@latest
 
 ## Commands to Reformate Code
 
@@ -68,4 +68,5 @@ go install golang.org/x/tools/cmd/goimports@latest
 goimports -l -w .
 ```
 
-> [!DANGER] Always run go fmt or goimports before compiling your code!
+> [!DANGER] 
+> Always run go fmt or goimports before compiling your code!
